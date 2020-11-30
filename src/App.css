@@ -1,38 +1,37 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+:root {
+  --mainYellow: rgb(249, 228, 148);
+  --mainWhite: #fff;
+  --mainBlack: #000;
+  --yellowTrans: rgba(249, 228, 148, 0.5);
+  --mainGreen: #84a98c;
+  --yellowOrange: #ff9500;
+  --mainRed: #f94144;
+  --queenBlue: #577590;
+  --zomp: #43aa8b;
+  --navbarColor: #343a40;
+  --lightGrey: #c6c8ca;
+}
+
+#root {
+  background-color: var(--queenBlue);
+}
+.navbar {
+  font-family: "Share Tech Mono", monospace;
+  height: 7vh;
+}
+.main-container {
+  background-color: azure !important;
+}
+
+.chat-area {
+  background-color: #84a98c;
+  height: 88vh;
+  border-radius: 0px 0px 5px 5px;
+}
+
+footer {
+  font-family: "Share Tech Mono", monospace;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

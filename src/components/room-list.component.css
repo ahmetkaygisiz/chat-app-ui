@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+:root {
+  --mainYellow: rgb(249, 228, 148);
+  --mainWhite: #fff;
+  --mainBlack: #000;
+  --yellowTrans: rgba(249, 228, 148, 0.5);
+  --mainGreen: #84a98c;
+  --yellowOrange: #ff9500;
+  --mainRed: #f94144;
+  --queenBlue: #577590;
+  --zomp: #43aa8b;
+  --navbarColor: #343a40;
+  --lightGrey: #c6c8ca;
+}
+
+.list-area {
+  font-family: "Share Tech Mono", monospace;
+  height: 88vh;
+  background-color: #52796f;
+  padding: 0 !important;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.list-header {
+  text-align: center;
+  color: var(--mainYellow);
+  text-shadow: 2px 2px var(--navbarColor);
+}
+
+.room-card {
+  background-color: #84a98c;
+}
+
+.room-card:hover {
+  background-color: var(--mainWhite);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
